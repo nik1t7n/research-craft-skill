@@ -4,7 +4,7 @@ Keep the skill small and practical.
 
 ## Guidelines
 
-- Put core instructions in `skills/research-craft/SKILL.md`.
+- Put core instructions in `SKILL.md`.
 - Add `references/` only when the content is too long for `SKILL.md`.
 - Do not add scripts unless a repeated command needs deterministic execution.
 - Prefer concrete research workflows over motivational prose.
@@ -15,6 +15,6 @@ Keep the skill small and practical.
 Before opening a PR:
 
 ```bash
-find skills -name SKILL.md -print
-skills add . --skill research-craft --copy -y
+test -f SKILL.md
+npx -y skills add . --skill research-craft --list
 ```

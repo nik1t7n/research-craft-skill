@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Craft"
+  short_description: "Research best practices and standards"
+  default_prompt: "Use this skill to plan and execute stronger research loops."
